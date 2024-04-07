@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-position:center left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;    
+    align-items: center ;
+
+}
+.page{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(145, 105, 231, 0.5);
+    /* opacity: 0.5; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+        
+}
+
+#inp{
+    height: 40%;
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.3);
+    border:none;
+    padding-left: 1rem;
+    color:white;
+}
+input::placeholder{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+
+input:focus{
+    outline: none;
+}
+#get{
+    margin: 5% 0 0 2%;
+    border-radius: 0.5rem;
+    height: 40%;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1rem;
+    /*  */
+    background: linear-gradient(to right, rgb(208, 189, 239), rgb(165, 168, 241));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+hr{
+    border: 1px solid grey;
+    margin: 10px 0 10px 0;
+    width: 70%;
+}
+#show{
+    height: 100%;
+    width: 100%;
+}
+#show button{
+    height: 1.5rem;
+    width: 10%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    margin-right: 5px;
+    color: rgba(255, 0, 0, 0.329);
+    font-weight: 900;
+}
+li{
+    color:white;
+    height: 2rem;
+    list-style-type: none;
+    width: 70%;
+    margin: auto;
+    padding-left: 0.5rem;
+    background-color: rgb(255, 255, 255,0.2);
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
